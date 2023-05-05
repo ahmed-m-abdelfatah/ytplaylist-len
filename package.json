@@ -1,0 +1,24 @@
+{
+  "author": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "googleapis": "^118.0.0"
+  },
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": "16.20.0"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "main": "app.js",
+  "name": "ytplaylist-len",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "version": "1.0.0"
+}
