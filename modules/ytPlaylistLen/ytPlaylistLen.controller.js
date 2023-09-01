@@ -5,7 +5,7 @@ module.exports.getPlaylistData = async (req, res) => {
     const API_KEY = process.env.GOOGLE_API_KEY;
     const { url } = req.body;
 
-    const regex = /^https?:\/\/(?:www\.)?youtube\.com\/playlist\?list=([a-zA-Z0-9_-]+)$/;
+    const regex = /^https?:\/\/(?:www\.)?youtube\.com\/playlist\?list=[A-Za-z0-9_-]+(&si=[A-Za-z0-9_-]+)?/;
     const isYouTubePlaylistLink = url => {
       return regex.test(url);
     };
